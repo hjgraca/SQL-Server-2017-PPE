@@ -2,10 +2,10 @@ This is a repro package to demonstrate the Automatic Tuning (Auto Plan Correctio
 
 This repro assumes the following:
 
---> Windows
---> SQL Server 2017 installed (pick at minimum Database Engine) default instance.
---> You have installed SQL Server Management Studio or SQL Operations Studio
---> Download database WideWorldImporters-Full.bak https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0
+* Windows
+* SQL Server 2017 installed (pick at minimum Database Engine) default instance.
+* You have installed SQL Server Management Studio or SQL Operations Studio
+* Download database WideWorldImporters-Full.bak https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0
 
 1. Install ostress from the package RML_Setup_AMD64.msi. Add C:\Program Files\Microsoft Corporation\RMLUtils to your path.
 
@@ -27,8 +27,8 @@ This repro assumes the following:
 
 10. Now let's see what happens with automatic plan correction which uses this command in SQL Server 2017
 
-ALTER DATABASE <db>
-SET AUTOMATIC_TUNING ( FORCE_LAST_GOOD_PLAN = ON )
+**ALTER DATABASE <db>
+SET AUTOMATIC_TUNING ( FORCE_LAST_GOOD_PLAN = ON )**
 
 11. Run auto_tune.cmd which uses the above command to set automatic plan correct ON for WideWorldImporters
 
