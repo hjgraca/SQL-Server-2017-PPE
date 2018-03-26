@@ -19,6 +19,6 @@
     *  Contoso clinic:
 		https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers/sample-scripts
 * GDPR
-    [Info](teste)
+    * [More Info](https://github.com/hjgraca/SQL-Server-2017-PPE/tree/master/GDPR)
 * Machine Learning
     * https://github.com/Microsoft/sql-server-samples/tree/master/samples/features/machine-learning-services/python/getting-started/rental-prediction
